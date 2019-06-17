@@ -1,9 +1,22 @@
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.text.NumberFormat;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
 
 public class TipCalculatorController {
+
+    private static final NumberFormat currency =
+            NumberFormat.getCurrencyInstance();
+    private static final NumberFormat percent =
+            NumberFormat.getPercentInstance();
+
+    private BigDecimal tipPercentage = new BigDecimal(0.15);
 
     @FXML
     private Label tipPercentageLabel;
@@ -22,7 +35,10 @@ public class TipCalculatorController {
 
     @FXML
     void calculateButtonPressed(ActionEvent event) {
-
+//        try {
+//            BigDecimal amount = new BigDecimal(amountTextField.getText());
+//            BigDecimal tip = amount.multiply(tipPercentage)
+//        }
     }
 
 }
