@@ -1,5 +1,4 @@
-<-- 
-In edition
+<-- In edition
 -->
 
 
