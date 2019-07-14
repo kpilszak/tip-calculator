@@ -1,5 +1,4 @@
-<-- In
-edition-->
+<-- In edition-->
 
 
 <h1 align="right">Tip Calculator</h1><br>
