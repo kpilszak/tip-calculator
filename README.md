@@ -10,9 +10,8 @@
 * [Sources](#sources)
 
 ## General info
-This project is a multi-player music machine.  
-The main purpose is to create a track and send it to other clients connected to the server.  
-There are 16 types of instruments available.
+This project is an application using Java FX.  
+The main purpose is to create a calculator which displays a restaurant bill tip and total.  
 
 ## Technologies
 Project is created with:
