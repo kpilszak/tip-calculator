@@ -27,4 +27,4 @@ Type `java MusicServer` to run server.
 Type `java BeatBox` to run client.
 
 ## Sources
-This project was created as an exercise from Kathy Sierra and Bert Bates book "Head First. Java".
+This project was created as an exercise from Paul Deitel and Harvey Deitel book "Java How to Program, Early Objects (11th Edition)".
